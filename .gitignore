@@ -1,0 +1,39 @@
+# Python environments and cache files
+pipeline_medsam2/.venv311/
+**/__pycache__/
+*.py[cod]
+
+# Local settings, logs, and editor files
+.env
+.env.*
+*.log
+*.tmp
+.vscode/
+.DS_Store
+
+# Downloaded model weights and local datasets
+pipeline_medsam2/MedSAM2/data/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Medical-image inputs and generated volumes
+*.nii
+*.nii.gz
+*.dcm
+*.nrrd
+*.mha
+*.mhd
+*.npz
+
+# Generated pipeline outputs
+pipeline_medsam2/test_output/
+pipeline_medsam2/segmented_ct_slices_p15_batched/
+pipeline_medsam2/segmented_ct_slices_p15_full_medsam2/
+pipeline_medsam2/segmented_ct_slices_p15_full_medsam2_ordered_z/
+pipeline_medsam2/segmented_ct_slices_p15_medsam2/
+pipeline_medsam2/segmented_ct_slices_p15_v2/
+pipeline_medsam2/postprocessed_p15_medsam2/
+pipeline_medsam2/postprocessed_p15_medsam2_old/
