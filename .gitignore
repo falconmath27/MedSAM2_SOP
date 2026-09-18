@@ -37,3 +37,23 @@ pipeline_medsam2/segmented_ct_slices_p15_medsam2/
 pipeline_medsam2/segmented_ct_slices_p15_v2/
 pipeline_medsam2/postprocessed_p15_medsam2/
 pipeline_medsam2/postprocessed_p15_medsam2_old/
+
+# MedSAM2 3D generated data, previews, training runs, and checkpoints
+/pipeline_medsam2_3d/batch_logs/
+/pipeline_medsam2_3d/models/
+/pipeline_medsam2_3d/weights/
+/pipeline_medsam2_3d/runs/
+/pipeline_medsam2_3d/runs_yolo12/
+/pipeline_medsam2_3d/yolo12_selected_patients_dataset/
+/pipeline_medsam2_3d/extracted_masks/
+/pipeline_medsam2_3d/extracted_pngs/
+/pipeline_medsam2_3d/labels/
+/pipeline_medsam2_3d/preview_bbox/
+/pipeline_medsam2_3d/preview_masks/
+/pipeline_medsam2_3d/p[0-9]*_extracted_masks/
+/pipeline_medsam2_3d/p[0-9]*_extracted_pngs/
+/pipeline_medsam2_3d/p[0-9]*_labels*/
+/pipeline_medsam2_3d/p[0-9]*_preview_bbox*/
+/pipeline_medsam2_3d/p[0-9]*_preview_masks/
+/pipeline_medsam2_3d/postprocessed_p15_3d*/
+/pipeline_medsam2_3d/*_iou_report*.json
