@@ -1,0 +1,25 @@
+{
+  "project": "MedSAM2-3D-Brain-Anatomy",
+  "paths_relative_to": "project_root",
+  "dataset_root": "../APIS_Dataset",
+  "medsam2_source": "../pipeline_medsam2/MedSAM2",
+  "medsam2_checkpoint": "../pipeline_medsam2/MedSAM2/checkpoints/MedSAM2_latest.pt",
+  "medsam2_config": "../pipeline_medsam2/MedSAM2/sam2/configs/sam2.1_hiera_t512.yaml",
+  "mni_template": "data/master_atlas_3d/mni_template_1mm.nii.gz",
+  "region_atlas": "data/master_atlas_3d/anatomy_12regions_atlas.nii.gz",
+  "expected_patients": 60,
+  "ct_windows": {
+    "narrow_brain": {"level": 35, "width": 40},
+    "brain": {"level": 40, "width": 80},
+    "csf": {"level": 20, "width": 40}
+  },
+  "labels": {
+    "0": "Background",
+    "1": "Precentral_L", "2": "Precentral_R",
+    "3": "Insula_L", "4": "Insula_R",
+    "5": "Caudate_L", "6": "Caudate_R",
+    "7": "Lentiform_L", "8": "Lentiform_R",
+    "9": "Thalamus_L", "10": "Thalamus_R",
+    "11": "LateralVentricle_L", "12": "LateralVentricle_R"
+  }
+}

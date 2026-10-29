@@ -1,0 +1,6 @@
+# Validated together by scripts/validate_environment.py.
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+numpy==2.2.6
+antspyx==0.6.3
+ultralytics==8.3.200

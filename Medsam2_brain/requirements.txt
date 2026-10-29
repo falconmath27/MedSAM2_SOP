@@ -1,0 +1,18 @@
+# Install with constraints.txt; environment/requirements-lock.txt records validated versions.
+# Install CUDA PyTorch/torchvision first, then the local MedSAM2 package.
+numpy
+nibabel
+nilearn
+antspyx
+SimpleITK
+Pillow
+scipy
+pandas
+matplotlib
+psutil
+scikit-image
+hydra-core
+iopath
+tqdm
+# Required only for Mode B training and detection:
+ultralytics
